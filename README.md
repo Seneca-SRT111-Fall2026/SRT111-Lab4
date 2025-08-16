@@ -1,7 +1,7 @@
 # Lab4
-In this lab, you will create six simple Python scripts. All scripts must be written in GitHub Codespaces. 
+In this lab, you will create ten simple Python scripts. All scripts must be written in GitHub Codespaces. 
 In this lab, you will explore three important Python data structures: lists, sets, and dictionaries. These structures are widely used to organize, store, and manage data efficiently. You will begin by working with lists to understand ordered collections and practice modifying their contents. Next, you will learn how sets store unique, unordered elements and how set operations can be applied in problem-solving. Finally, you will work with dictionaries to see how key–value pairs allow fast and efficient data access. By completing this lab, you will gain practical experience in creating, manipulating, and applying these fundamental data structures in Python programs.
-## Lab Objectives
+# Lab Objectives
 - Create and manipulate Python lists, including adding, removing, and modifying elements.
 - Apply built-in functions and list methods to perform common list operations.
 - Construct sets and use them to store unique, unordered items.
@@ -10,8 +10,6 @@ In this lab, you will explore three important Python data structures: lists, set
 - Create dictionaries with key–value pairs for efficient data storage.
 - Access and update dictionary values using keys.
 - Differentiate between index-based access in lists and key-based access in dictionaries.
-
-
 ## Submission Instructions
 For each task:
 1. **Write the script** in Codespaces.  
@@ -20,7 +18,7 @@ For each task:
    - Your **code** in the editor.  
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Lab3a**, **Lab3b**, **Lab3c**, etc.  
+   - Example: **Lab4a**, **Lab4b**, **Lab4c**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
