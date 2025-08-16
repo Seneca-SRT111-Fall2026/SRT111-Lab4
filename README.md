@@ -192,12 +192,12 @@ s3_or_s5: {3, 5, 6, 9, 12, 18, 20, 21, 24, 27, 33, 35, 36, 39, 40, 42, 48, 50}
 - Remove extra code from `main()` and call the function at the appropriate location.
 - Run the script to verify that the output shows `s3`, `s5`, `s7`, and the final set.
 -- **Expected Output:**
-   ```yaml
+```yaml
 s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
 s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
 s7: {0, 7, 14, 21, 28, 35, 42, 49}
 s3_and_s5_not_s7: {3, 6, 9, 12, 15, 18, 24, 27, 30, 33, 36, 39, 45, 48}
-``
+```
 
 ## INVESTIGATION 2: DICTIONARIES
 
