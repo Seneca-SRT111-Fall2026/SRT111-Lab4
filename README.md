@@ -168,7 +168,8 @@ print(difference_set_method)  # Output: {1, 2}
 **Instructions:**
 
 - Copy the code from `lab4d.py` and paste it in the file `lab4e.py`.
-- Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.  *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
+- Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.   
+   - *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
 - Remove extra code from `main()` such as the calls to create `s7` and `s11`.
 - Call the function `s3_or_s5()` after creating and printing `s3` and `s5`.
 - Run the script to verify that the output shows `s3`, `s5`, and then the new set `s3_or_s5`.
@@ -180,14 +181,23 @@ s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
 s3_or_s5: {3, 5, 6, 9, 12, 18, 20, 21, 24, 27, 33, 35, 36, 39, 40, 42, 48, 50}
    ```
 
-## lab6c.py
-### Set Operations
-- Copy the code from lab6b.py and paste it in your lab6c.py file.
-- Create a new function caled `s3_and_s5_not_s7()`that creates a new set of all elements that are in s3 and s5, but not in s7. The function should receive s3, s5 and s7 as arguments. Use the appropriate set methods (union, intersection, difference).
-- Remove extra code from the main() and call the function at the appropiate location.
-- Run the script from command line using the command: python ./lab6c.py.
-- Take the screenshot of code showing the function `s3_and_s5_not_s7()`and the output. The output must show s3, s5, s7 and the final set elements.
+### lab4f.py - Set Operations
+**Objective:** To practice combining multiple sets using intersection and difference, passing multiple sets as function arguments, and creating a new set based on specific conditions.
 
+**Instructions:**
+
+- Copy the code from lab4d.py and paste it in your lab4f.py file.
+- Create a new function called `s3_and_s5_not_s7(s3, s5, s7)` that returns a set containing all elements that are in both `s3` and `s5` but not in `s7`.
+   - *Hint:* Use set intersection and difference methods, e.g., `s3 & s5 - s7` or `s3.intersection(s5).difference(s7)`.  
+- Remove extra code from `main()` and call the function at the appropriate location.
+- Run the script to verify that the output shows `s3`, `s5`, `s7`, and the final set.
+-- **Expected Output:**
+   ```yaml
+s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
+s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
+s7: {0, 7, 14, 21, 28, 35, 42, 49}
+s3_and_s5_not_s7: {3, 6, 9, 12, 15, 18, 24, 27, 30, 33, 36, 39, 45, 48}
+``
 
 ## INVESTIGATION 2: DICTIONARIES
 
