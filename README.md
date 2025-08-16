@@ -22,7 +22,7 @@ For each task:
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
-## INVESTIGATION 3: USING LISTS
+## INVESTIGATION 1: USING LISTS
 
 A list in Python is an ordered collection of items that can be of different types. Lists are mutable, meaning you can change their content after creation.
 In this Part you will be creating lists and performing basic operations on lists using list methods and built-in functions.
@@ -45,16 +45,27 @@ mixed_list=[1, "two", 4.5, True]
    - Hint: You can use + to concatenate lists. For example: [1, 2] + [3, 4] results in [1, 2, 3, 4].
 - Print the variable `mylist` and check that it contains all six numbers in order.
 
-### lab3g.py
-### Using list methods to add and remove elements from a list 
+### lab4b.py- Using list methods to add and remove elements from a list 
+**Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
-- Fill in the required fields in the comment section.
-- Create a variable `mylist` that conatins  first 6 natural numbers.
-- Use the `append()` method and add a new element, number 7 in the variable `mylis`t. 
-- Use the `inser()` method and insert the element 0 at index 0.
-- Use the `pop()' method to remove the element from index 2.
-- Print the variable `mylist`.
-- Add another statement in the script to find the index of the element 6 and print `The element 6 is present at the index ---`
+**Instructions:**
+
+- Open the file Lab4b.py and fill in the required fields in the comment section.
+- Create a variable `mylist` that contains the first 6 natural numbers: [1, 2, 3, 4, 5, 6].  
+- Use the `append()` method to add the number 7 to the end of the list.  
+- Use the `insert()` method to insert the number 0 at index 0.  
+- Use the `pop()` method to remove the element at index 2.  
+- Print the variable `mylist`.  
+- Add another statement to find the index of the element `6` and print:  
+  `The element 6 is present at the index ---`  
+  *(Hint: use the `index()` method).*
+
+  **Expected Output:**
+  ```yaml
+  mylist: [0, 1, 3, 4, 5, 6, 7]
+  message: "The element 6 is present at the index 5"
+```
+
 
 ## lab3h.py
 ### Modifying a list and using the list in a loop
