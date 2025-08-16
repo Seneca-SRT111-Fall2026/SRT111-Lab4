@@ -167,7 +167,7 @@ print(difference_set_method)  # Output: {1, 2}
 
 **Instructions:**
 
-- Copy the code from `lab4d.py` and paste it into a new file called `lab4e.py`.
+- Copy the code from `lab4d.py` and paste it in the file `lab4e.py`.
 - Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.  *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
 - Remove extra code from `main()` such as the calls to create `s7` and `s11`.
 - Call the function `s3_or_s5()` after creating and printing `s3` and `s5`.
