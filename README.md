@@ -94,15 +94,22 @@ print(myset)
 Output :
 {'kiwi', 'apples', 'oranges'}
 ```
-## lab6a.py
-### Creating Sets
-In your lab6a.py file complete the given function that creates the following four sets.
-- s3 which contains numbers between 0 and 100 which are divisible by 3.
-- s5 which contains numbers between 0 and 100 which are divisible by 5.
-- s7 which contains numbers between 0 and 100 which are divisible by 7.
-- s21 which contains numbers between 0 and 100 which are divisible by 11.
-- Run the script from command line using the command: python ./lab6a.py.
+## lab4d.py - Creating Sets
+- In your `lab4c.py` file, complete the given function to create the following sets:
+   1. `s3` — contains numbers between 0 and 100 that are divisible by 3.  
+   2. `s5` — contains numbers between 0 and 100 that are divisible by 5.  
+   3. `s7` — contains numbers between 0 and 100 that are divisible by 7.  
+   4. `s11` — contains numbers between 0 and 100 that are divisible by 11.  
+- Run the script to verify that the sets are created correctly. Note: Sets are unordered, so the printed output may not be in numerical order.
 
+-- **Expected Output:**
+   ```yaml
+s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99}
+s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100}
+s7: {0, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98}
+s11: {0, 11, 22, 33, 44, 55, 66, 77, 88, 99}
+   ```
+ 
 ### Useful Sets Functions
 Set operations in Python are used to perform mathematical set operations like union, intersection, and difference. Python's set data type supports these operations directly. 
 
