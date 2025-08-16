@@ -22,26 +22,28 @@ For each task:
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
-
-
 ## INVESTIGATION 3: USING LISTS
 
 A list in Python is an ordered collection of items that can be of different types. Lists are mutable, meaning you can change their content after creation.
 In this Part you will be creating lists and performing basic operations on lists using list methods and built-in functions.
 Lists are used to store data elements. Usually lists contain similar kind of data, but python does not restrict you from adding values of different data types in a list.
 
-### lab3f.py
-### Creating lists and list concatenation
+### lab4a.py - Creating lists and list concatenation
+**Objective:** To practice creating Python lists, storing values in them, concatenating multiple lists using the + operator.
+
+**Instructions:**
+
 Lists are constructed with brackets [] and commas separating every element in the list. For example:
 ```Python
 numbers=[1,2,3,4]
 mixed_list=[1, "two", 4.5, True]
 ```
-- Fill in the required fields in the comment section
-- Create a variable of the type list called `mylist1` and save first three odd numbers (1,3,5) in it.
-- Create a second variable of the type list and call it `mylist2`, save first three even numbers (0,2,4) in it.
-- Create a third variable called `mylist`. This variable should contain all elements form mylist1 and mylist2. Remember you can use + to concatenate lists, just like we did for strings.
-- Print the variable `mylist`.
+- Open the file Lab4a.py and fill in the required fields in the comment section.
+- Create a variable called `mylist1` that stores the first three odd numbers: 1, 3, 5.
+- Create a second list called `mylist2` that stores the first three even numbers: 0, 2, 4.
+- Create a third list called `mylist` that combines all elements from mylist1 and mylist2.
+   - Hint: You can use + to concatenate lists. For example: [1, 2] + [3, 4] results in [1, 2, 3, 4].
+- Print the variable `mylist` and check that it contains all six numbers in order.
 
 ### lab3g.py
 ### Using list methods to add and remove elements from a list 
@@ -352,3 +354,17 @@ PRG101 = [student1, Student2, Student3]
 - Capitalization is irrelevant here. A search for “gone” should return a list containing both “Gone with the wind” and “Forever gone”.
 - Call the function twice with different search strings.
 - Run the script from command line using the command: python ./lab6h.py.
+
+## Lab 3 Sign-Off
+- Submit a PDF named using your Seneca username, .pdf on Blackbaord.
+- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
+    - lab3a.py
+    - lab3b.py
+    - lab3c.py
+    - lab3d.py
+    - lab3e.py
+    - lab3f.py
+    - lab3g.py
+- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
+- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
+
