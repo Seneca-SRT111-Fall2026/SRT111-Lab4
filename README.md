@@ -60,13 +60,10 @@ mixed_list=[1, "two", 4.5, True]
   `The element 6 is present at the index ---`  
   *(Hint: use the `index()` method).*
   **Expected Output:**
-
-<pre>
    ```yaml
    mylist: [0, 1, 3, 4, 5, 6, 7]
    message: "The element 6 is present at the index 5"
    ```
-</pre>
 ## lab3h.py
 ### Modifying a list and using the list in a loop
 - Fill in the required fields in the comment section.
