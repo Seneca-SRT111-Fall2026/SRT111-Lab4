@@ -117,7 +117,6 @@ s11: {0, 11, 22, 33, 44}
  
 ### Useful Sets Functions
 Set operations in Python are used to perform mathematical set operations like union, intersection, and difference. Python's set data type supports these operations directly. 
-
 The `union` of two sets is a set containing all the elements of both sets without duplicates.
 
 ```Python
@@ -163,16 +162,23 @@ difference_set_method = set1.difference(set2)
 print(difference_set_method)  # Output: {1, 2}
 ```
 
-## lab6b.py
-### Set Operations
+## lab4e.py - Set Operations
+**Objective:** To practice creating a new set from existing sets using the symmetric difference, and to reinforce passing sets as function arguments.
 
-- Copy the code from lab6a.py and paste it in your lab6b.py file.
-- Create a new function called `s3_or_s5()` that creates a new set of all elements that are in s3 or s5, but not both. The function should receive s3 and s5 as arguments.
-- Remove extra code form main() like the calls to create s7 and s11.
-- Call the function `s3_or_s5()` after the call that creates s5 and prints s5.
-- Run the script from command line using the command: python ./lab6b.py.
-- Take the screenshot of code showing the function `s3_or_s5()` and the output. The output must show s3, s5 and then s3ors5.
-  
+**Instructions:**
+
+- Copy the code from `lab4d.py` and paste it into a new file called `lab4e.py`.
+- Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.  *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
+- Remove extra code from `main()` such as the calls to create `s7` and `s11`.
+- Call the function `s3_or_s5()` after creating and printing `s3` and `s5`.
+- Run the script to verify that the output shows `s3`, `s5`, and then the new set `s3_or_s5`.
+
+-- **Expected Output:**
+   ```yaml
+s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
+s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
+s3_or_s5: {3, 5, 6, 9, 12, 18, 20, 21, 24, 27, 33, 35, 36, 39, 40, 42, 48, 50}
+   ```
 ## lab6c.py
 ### Set Operations
 - Copy the code from lab6b.py and paste it in your lab6c.py file.
