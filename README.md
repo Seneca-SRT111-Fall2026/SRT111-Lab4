@@ -63,42 +63,16 @@ mixed_list=[1, "two", 4.5, True]
    mylist: [0, 1, 3, 4, 5, 6, 7]
    message: "The element 6 is present at the index 5"
    ```
-## lab3h.py
-### Modifying a list and using the list in a loop
-- Fill in the required fields in the comment section.
-- Create a list variable called `students`. Add the following names in this list: Ama, Elina, Maija, Daniel, Ibrahim.
-- Next change the element at index 1 and update this element with "Maggy".
-- Now use a` for loop` and iterate over this list and print each element on a separate line. 
+### lab4c.py- Modifying a list and using the list in a loop
+**Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
-  
-## lab3i.py
-### Two Dimensional Lists
-A great feature of of Python data structures is that they support *nesting*. This means we can have data structures within data structures. For example: A list inside a list.
-A 2D list is a list where each element is itself a list. These inner lists represent rows, and the elements within them represent columns.
+**Instructions:**
+- Open the file Lab4c.py and fill in the required fields in the comment section.
+- Create a list variable called `students` and add the following names: Ama, Eden, Maija, Daniel, Ibrahim.  
+- Update the element at index 1 to "Maggy".  *Hint:* Remember that list indices start at 0.  
+- Use a `for` loop to iterate over the `students` list and print each name on a separate line.  
 
-```Python
-matrix = [
-[1, 2, 3],
-[4, 5, 6],
-[7, 8, 9]
-]
-
-element = matrix[1][2]  # Output: 6
-```
-- Fill in the required fields in the comment section.
-- Copy the above code in the file `lab3i.py`.
-- Print the element `5` from this list. Specify the correct row and column.
-- Print the element `2` from this list.
-- Print the element `9` from this list.
-- Use a for loop and print individual lists from this matrix. You need a single for loop. The output should be like this:
-  ```python
-  [1,2,3]
-  [4,5,6]
-  [7,8,9]
-  ```
-
-
-## INVESTIGATION 1: WORKING WITH SETS
+## INVESTIGATION 2: WORKING WITH SETS
 
 Sets are used to store multiple items in a single variable. Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
 A set has similar characteristics as a list, but there are two major differences:
