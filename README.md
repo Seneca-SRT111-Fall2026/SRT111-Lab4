@@ -58,7 +58,7 @@ mixed_list=[1, "two", 4.5, True]
 - Print the variable `mylist`.  
 - Add another statement to find the index of the element `6` and print:  
   - The element 6 is present at the index ---`  *(Hint: use the `index()` method).* 
-- **Expected Output:**
+-- **Expected Output:**
    ```yaml
    mylist: [0, 1, 3, 4, 5, 6, 7]
    message: "The element 6 is present at the index 5"
