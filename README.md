@@ -57,7 +57,7 @@ mixed_list=[1, "two", 4.5, True]
 - Use the `pop()` method to remove the element at index 2.  
 - Print the variable `mylist`.  
 - Add another statement to find the index of the element `6` and print:  
-  `The element 6 is present at the index ---`  *(Hint: use the `index()` method).*
+  `The element 6 is present at the index ---`  *(Hint: use the `index()` method).* <br>
   **Expected Output:**
    ```yaml
    mylist: [0, 1, 3, 4, 5, 6, 7]
