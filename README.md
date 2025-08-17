@@ -248,7 +248,8 @@ print(my_dictionary)
 
 ### lab4h.py - Traversing a Dictionary
 
-The familiar for item in collection loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
+The familiar `for item in collection` loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
+
 **Example 1 – Traversing keys**
 
 ```Python
