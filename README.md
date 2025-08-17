@@ -373,26 +373,20 @@ This way, the list represents the course, and each dictionary in the list repres
 - Run the script from the command line to verify the output.
 - Note that this is a complex task, you are creating a list of dictionaries. It is a really useful concept and if you are able to write this script, you should be proud of you!
 
-## lab6h.py
-### Using Dictionary for Structured Data
-
-- Copy the code from lab6g.py and paste it in lab6h.py.
-- Create a new function named find_movie() which processes the movie database created in the previous exercise.
-- The function should formulate a new list, which contains only the movies whose title includes the word searched for.
-- Capitalization is irrelevant here. A search for “gone” should return a list containing both “Gone with the wind” and “Forever gone”.
-- Call the function twice with different search strings.
-- Run the script from command line using the command: python ./lab6h.py.
-
-## Lab 3 Sign-Off
+## Lab 4 Sign-Off
 - Submit a PDF named using your Seneca username, .pdf on Blackbaord.
 - The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
-    - lab3a.py
-    - lab3b.py
-    - lab3c.py
-    - lab3d.py
-    - lab3e.py
-    - lab3f.py
-    - lab3g.py
+    - lab4a.py
+    - lab4b.py
+    - lab4c.py
+    - lab4d.py
+    - lab4e.py
+    - lab4f.py
+    - lab4g.py
+    - lab4h.py
+    - lab4i.py
+    - lab4j.py
+      
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
 
