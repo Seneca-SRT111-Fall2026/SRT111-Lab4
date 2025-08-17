@@ -19,7 +19,7 @@ For each task:
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
    - Example: **Lab4a**, **Lab4b**, **Lab4c**, etc.  
-5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **Seneca username**, for example salim123.pdf
+5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
 ## INVESTIGATION 1: USING LISTS
@@ -374,8 +374,8 @@ This way, the list represents the course, and each dictionary in the list repres
 - Note that this is a complex task, you are creating a list of dictionaries. It is a really useful concept and if you are able to write this script, you should be proud of you!
 
 ## Lab 4 Sign-Off
-- Submit a PDF named using your Seneca username, .pdf on Blackbaord.
-- The document must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username:
+- Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
+- The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
     - lab4a.py
     - lab4b.py
     - lab4c.py
