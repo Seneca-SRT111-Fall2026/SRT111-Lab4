@@ -164,7 +164,6 @@ print(difference_set)  # Output: {1, 2}
 difference_set_method = set1.difference(set2)
 print(difference_set_method)  # Output: {1, 2}
 ```
----
 ### lab4e.py - Set Operations
 **Objective:** To practice creating a new set from existing sets using the symmetric difference, and to reinforce passing sets as function arguments.
 
@@ -248,7 +247,7 @@ print(my_dictionary)
 {2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 ```
 - Run the script from command line to verify the output.
-
+---
 ### lab4h.py - Traversing a Dictionary
 **Objective:** Practice traversing dictionaries using keys, values, and key-value pairs, and formatting the output with the .items() method.
 
@@ -323,7 +322,7 @@ Argentina : Andes
 Pakistan : Karakoram
 ```
 - Run the script from command line to verify the output.
-
+---
 ### lab4i.py - Using Dictionary for Problem solving
 **Objective:** Learn how to use dictionaries to count and summarize data from strings by building a simple text-based histogram.
 **Instructions:**
@@ -343,7 +342,7 @@ m **
 - Use a dictionary to store the letter counts.
 - Call your histogram() function from a main() function and pass it any string of your choice.
 - Run the script from the command line to verify the output.
-
+---
 ## lab4j.py - Using Dictionary for Structured Data
 
 Dictionaries are very useful for structuring related data. For example, we can represent a student’s record with a dictionary:
