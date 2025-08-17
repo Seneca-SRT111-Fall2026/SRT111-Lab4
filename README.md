@@ -10,7 +10,7 @@ In this lab, you will explore three important Python data structures: lists, set
 - Create dictionaries with key–value pairs for efficient data storage.
 - Access and update dictionary values using keys.
 - Differentiate between index-based access in lists and key-based access in dictionaries.
-## Submission Instructions
+# Submission Instructions
 For each task:
 1. **Write the script** in Codespaces.  
 2. **Run the script** from the **terminal**.  
