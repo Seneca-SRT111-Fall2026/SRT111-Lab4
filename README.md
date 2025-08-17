@@ -76,7 +76,6 @@ mixed_list=[1, "two", 4.5, True]
 - Update the element at index 1 to "Maggy".  *Hint:* Remember that list indices start at 0.  
 - Use a `for` loop to iterate over the `students` list and print each name on a separate line.  
 
----
 ## INVESTIGATION 2: WORKING WITH SETS
 
 Sets are used to store multiple items in a single variable. Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
@@ -118,7 +117,7 @@ s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
 s7: {0, 7, 14, 21, 28, 35, 42, 49}
 s11: {0, 11, 22, 33, 44}
    ```
- 
+ ---
 ### Useful Sets Functions
 Set operations in Python are used to perform mathematical set operations like union, intersection, and difference. Python's set data type supports these operations directly. 
 The `union` of two sets is a set containing all the elements of both sets without duplicates.
@@ -165,7 +164,7 @@ print(difference_set)  # Output: {1, 2}
 difference_set_method = set1.difference(set2)
 print(difference_set_method)  # Output: {1, 2}
 ```
-
+---
 ### lab4e.py - Set Operations
 **Objective:** To practice creating a new set from existing sets using the symmetric difference, and to reinforce passing sets as function arguments.
 
@@ -184,7 +183,7 @@ s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
 s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
 s3_or_s5: {3, 5, 6, 9, 12, 18, 20, 21, 24, 27, 33, 35, 36, 39, 40, 42, 48, 50}
    ```
-
+---
 ### lab4f.py - Set Operations
 **Objective:** To practice combining multiple sets using intersection and difference, passing multiple sets as function arguments, and creating a new set based on specific conditions.
 
