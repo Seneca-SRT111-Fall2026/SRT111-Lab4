@@ -341,28 +341,36 @@ m **
 - Call your histogram() function from a main() function and pass it any string of your choice.
 - Run the script from the command line to verify the output.
 
-## lab6g.py
-### Using Dictionary for Structured Data
+## lab4j.py - Using Dictionary for Structured Data
 
-Dictionaries are very useful for structuring data. For example, we can create a dictionary representing the record of each student.
+Dictionaries are very useful for structuring related data. For example, we can represent a student’s record with a dictionary:
 ```Python
-Student = {“name”: “Eden”, “id”: “eden2402”, “semester”: 3, “year”: 2}
+student = {"name": "Eden", "id": "eden2402", "semester": 3, "year": 2}
 ```
-We can create multiple such records, each record representing one student. The advantage of a dictionary is that it is a collection. It collects related data under one variable, so it is easy to access the different components. 
-To create a complex and more useful data structure, we can create a list of dictionaries which represent students in let’s say the course PRG101. The list represents the course and dictionary elements can be added to the list to represent the students in the course.
-```Python
-Student1 = {“name”: “Eden”, “id”: “eden2402”, “semester”: 3, “year”: 2}
-Student2 = {“name”: “Mustafa”, “id”: “mstfa12”, “semester”: 4, “year”: 2}
-Student3 = {“name”: “Haiden”, “id”: “haiden1”, “semester”: 3, “year”: 2}
-PRG101 = [student1, Student2, Student3]
-```
+We can then create multiple such dictionaries, each representing one student. A list can be used to group these records together, for example:
 
-- In your lab6g.py file create a function named add_movie() which adds a new movie object into a movie database.
-- The database is a list, and each movie object in the list is a dictionary. The dictionary should contain the following keys (name, director, year, runtime).
-- The values attached to these keys should be pass as arguments to the function.
-- Call the function 4 times with 4 different movies.
-- In the main() function print the database with each movie data printed on a single line.
-- Run the script from command line using the command: python ./lab6g.py.
+```Python
+student1 = {"name": "Eden", "id": "eden2402", "semester": 3, "year": 2}
+student2 = {"name": "Mustafa", "id": "mstfa12", "semester": 4, "year": 2}
+student3 = {"name": "Haiden", "id": "haiden1", "semester": 3, "year": 2}
+
+PRG101 = [student1, student2, student3]
+```
+This way, the list represents the course, and each dictionary in the list represents a student.
+
+**Instructions:**
+
+- In your lab4i.py file, create a function named add_movie() that adds a new movie to a movie database.
+- The movie database is a list, and each movie is represented by a dictionary.
+- Each dictionary should have the following keys:
+   - "name"
+   - "director"
+   - "year"
+   - "runtime"
+- The values for these keys should be passed as arguments to the function.
+- Call the function four times with different movies.
+- In the main() function, print the database so that each movie dictionary appears on a single line.
+- Run the script from the command line to verify the output.
 - Note that this is a complex task, you are creating a list of dictionaries. It is a really useful concept and if you are able to write this script, you should be proud of you!
 
 ## lab6h.py
