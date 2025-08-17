@@ -246,8 +246,7 @@ print(my_dictionary)
 ```
 - Run the script from command line to verify the output.
 
-## lab6e.py
-### Traversing a Dictionary
+## lab4h.py - Traversing a Dictionary
 
 The familiar `for item in collection` loop can be used to traverse a dictionary, too. When used on the dictionary directly, the loop goes through the keys stored in the dictionary, one by one. 
 A python dictionary can be traversed by following methods :
@@ -309,7 +308,8 @@ Key: age, Value: 21
 Key: major, Value: Computer Science
 ```
 
-- A dictionary is provided to you in ./lab6e.py file, use the `for in` loop and `items()` methodto traverse this dictionary and print the dictionary showing the following exact output.
+**Instructions:**
+- A dictionary is provided to you in ./lab4h.py file, use the `for in` loop and `items()` method to traverse this dictionary and print the dictionary showing the following exact output.
 ```Python
 switzerland : Alps
 United States : Alska Range
@@ -317,8 +317,7 @@ Armenia : Caucasus
 Argentina : Andes 
 Karakoram : Pakistan
 ```
-- Run the script from command line using the command: python ./lab6e.py
-- Take the screenshot of code and the output.
+- Run the script from command line to verify the output.
 
 ## lab6f.py
 ### Using Dictionary for Problem solving
