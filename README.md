@@ -246,12 +246,10 @@ print(my_dictionary)
 ```
 - Run the script from command line to verify the output.
 
-## lab4h.py - Traversing a Dictionary
+### lab4h.py - Traversing a Dictionary
 
-The familiar `for item in collection` loop can be used to traverse a dictionary, too. When used on the dictionary directly, the loop goes through the keys stored in the dictionary, one by one. 
-A python dictionary can be traversed by following methods :
-
-You can iterate through all the keys in a dictionary using a for loop.
+The familiar for item in collection loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
+**Example 1 – Traversing keys**
 
 ```Python
 student = {
@@ -269,8 +267,7 @@ name
 age
 major
 ```
-
-To iterate through all the values in a dictionary, use the values() method.
+**Example 2 – Traversing values:**  To iterate through all the values in a dictionary, use the values() method.
 
 ```Python
 student = {
@@ -289,7 +286,7 @@ John Doe
 Computer Science
 ```
 
-To iterate through key-value pairs, use the items() method, which returns a view of the dictionary’s key-value pairs as tuples.
+**Example 3 – Traversing key-value pairs:** To iterate through key-value pairs, use the items() method, which returns a view of the dictionary’s key-value pairs as tuples.
 
 ```Python
 student = {
@@ -309,13 +306,16 @@ Key: major, Value: Computer Science
 ```
 
 **Instructions:**
-- A dictionary is provided to you in ./lab4h.py file, use the `for in` loop and `items()` method to traverse this dictionary and print the dictionary showing the following exact output.
+- A dictionary is provided to you in lab4h.py.
+- Use a `for ... in` loop with the `.items()` method to traverse this dictionary.
+- Print the dictionary’s contents in the exact format shown below:
+
 ```Python
-switzerland : Alps
-United States : Alska Range
-Armenia : Caucasus 
-Argentina : Andes 
-Karakoram : Pakistan
+Switzerland : Alps
+United States : Alaska Range
+Armenia : Caucasus
+Argentina : Andes
+Pakistan : Karakoram
 ```
 - Run the script from command line to verify the output.
 
