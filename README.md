@@ -110,7 +110,7 @@ Output :
    4. `s11` — contains numbers between 0 and 50 that are divisible by 11.  
 - Run the script to verify that the sets are created correctly. Note: Sets are unordered, so the printed output may not be in numerical order.
 
--- **Expected Output:**
+**Expected Output:**
    ```yaml
 s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
 s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
@@ -177,7 +177,7 @@ print(difference_set_method)  # Output: {1, 2}
 - Call the function `s3_or_s5()` after creating and printing `s3` and `s5`.
 - Run the script to verify that the output shows `s3`, `s5`, and then the new set `s3_or_s5`.
 
--- **Expected Output:**
+**Expected Output:**
    ```yaml
 s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
 s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
