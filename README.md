@@ -247,6 +247,7 @@ print(my_dictionary)
 - Run the script from command line to verify the output.
 
 ### lab4h.py - Traversing a Dictionary
+**Objective:** Practice traversing dictionaries using keys, values, and key-value pairs, and formatting the output with the .items() method.
 
 The familiar `for item in collection` loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
 
@@ -320,13 +321,14 @@ Pakistan : Karakoram
 ```
 - Run the script from command line to verify the output.
 
-## lab6f.py
-### Using Dictionary for Problem solving
+### lab4i.py - Using Dictionary for Problem solving
+**Objective:** Learn how to use dictionaries to count and summarize data from strings by building a simple text-based histogram.
+**Instructions:**
 
-- In your lab6f.py file create a function named histogram, which takes a string as its argument.
-- The function should print out a histogram representing the number of times each letter occurs in the string.
-- Each occurrence of a letter should be represented by a star on the specific line for that letter.
-- For example, the function call histogram("hello amma") should print :
+- In your lab4i.py file, create a function named histogram that takes a string as its argument.
+- The function should count how many times each letter occurs in the string, using a dictionary.
+- Then, print a histogram where each letter is followed by stars (*) representing its frequency.
+- For example, the function call `histogram("hello amma")` should print:
 ```Python
 h *
 e *
@@ -335,8 +337,9 @@ o *
 a **
 m **
 ```
-- Use dictionary in your function and call your function histogram() from main() function. Pass any string to your histogram function.
-- Run the script from command line using the command: python ./lab6f.py.
+- Use a dictionary to store the letter counts.
+- Call your histogram() function from a main() function and pass it any string of your choice.
+- Run the script from the command line to verify the output.
 
 ## lab6g.py
 ### Using Dictionary for Structured Data
