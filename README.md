@@ -45,6 +45,7 @@ mixed_list=[1, "two", 4.5, True]
    - Hint: You can use + to concatenate lists. For example: [1, 2] + [3, 4] results in [1, 2, 3, 4].
 - Print the variable `mylist` and check that it contains all six numbers in order.
 
+---
 ### lab4b.py- Using list methods to add and remove elements from a list 
 **Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
@@ -64,6 +65,8 @@ mixed_list=[1, "two", 4.5, True]
    mylist: [0, 1, 3, 4, 5, 6, 7]
    message: "The element 6 is present at the index 5"
    ```
+
+---
 ### lab4c.py- Modifying a list and using the list in a loop
 **Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
