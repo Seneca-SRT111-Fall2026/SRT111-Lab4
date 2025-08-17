@@ -199,45 +199,51 @@ s7: {0, 7, 14, 21, 28, 35, 42, 49}
 s3_and_s5_not_s7: {3, 6, 9, 12, 15, 18, 24, 27, 30, 33, 36, 39, 45, 48}
 ```
 
-## INVESTIGATION 2: DICTIONARIES
+## INVESTIGATION 3: DICTIONARIES
 
-In Python, a dictionary is a set of key-value pairs. Dictionaries are unordered, like sets, however any value can be retrieved from a dictionary if you know the key. This is efficient, if you remember when working with lists, you need to access list elements through indexes; 0, 1, 2 and so forth. If you want to find some item in a list, you will either know its index, or, at worst, traverse through the entire list. In a dictionary, the items are indexed by keys. Each key maps to a value. The values stored in the dictionary can be accessed and changed using the key.
+In Python, a dictionary is a collection of key-value pairs. Dictionaries are unordered collections (like sets), but unlike sets, each element is associated with a key. You can retrieve any value efficiently if you know its key.
 
+Think back to lists: list elements are accessed using numeric indexes (0, 1, 2, ...). If you want to find an element in a list, you either already know its index, or you have to search through the list. In contrast, dictionaries allow you to use descriptive keys instead of numeric indexes. Each key maps directly to a value, and that value can be accessed or changed using the key.
 Copy the following code in a new file and run it to see the output.
 ```Python
 this_dictionary = {}
-this_dictionary["switzerland"] = "Alps"
+this_dictionary["Switzerland"] = "Alps"
 this_dictionary["United States"] = "Alaska Range"
 this_dictionary["Armenia"] = "Caucasus"
 this_dictionary["Argentina"] = "Andes"
-this_dictionary["Karakoram"] = "Pakistan"
+this_dictionary["Pakistan"] = "Karakoram"
 
 print(len(this_dictionary))
 print(this_dictionary)
 print(this_dictionary["Argentina"])
-
 Output :
 5
-{'switzerland': 'Alps', 'United States': 'Alaska Range', 'Armenia': 'Caucasus', 'Argentina': 'Andes', 'Karakoram': 'Pakistan'}
+{'Switzerland': 'Alps', 'United States': 'Alaska Range', 'Armenia': 'Caucasus', 'Argentina': 'Andes', 'Pakistan': 'Karakoram'}
 Andes
 ```
+Here:
+- {} creates an empty dictionary.
+- Five key-value pairs are added: "Switzerland" maps to "Alps", "United States" maps to "Alaska Range", and so on.
+- len(this_dictionary) prints the number of key-value pairs.
+- Printing the dictionary shows all its contents.
+- Finally, accessing this_dictionary["Argentina"] retrieves the value "Andes".
 
-The notation {} creates an empty dictionary, to which we can add content. Five key-value pairs are added:"Switzerland" maps to "Alps", "United States" maps to "Alska Rnage" and so on the rest of keys maps to their respective values. Finally, the number of key-value pairs in the dictionary is printed, along with the entire dictionary, and the value mapped to the key "Argentina".
+### lab4g.py - Working With Dictionaries
+**Objective:** Practice creating and returning dictionaries by generating key-value pairs from a range of numbers.
 
-## lab6d.py
-### Working With Dictionaries
+**Instructions:**
 
-- In your lab6d.py file Create a function named `times_ten(start_index: int, end_index: int)`, which creates and returns a new dictionary.
-- The keys of the dictionary should be the numbers between `start_index` and `end_index` inclusive.
-- The value mapped to each key should be the key times ten.
+- In your lab4g.py file, create a function named `times_ten(start_index: int, end_index: int)` that creates and returns a new dictionary.
+- The keys of the dictionary should be the numbers between `start_index` and `end_index` (inclusive).
+- Each value should be the key multiplied by ten.
 - The function prints the exact output as:
 ```Python
-my_dictionary = multiplyByTen(2,6)
-print(my_ dictionary)
-{2:20, 3:30, 4:40, 5:50, 6:60}
+my_dictionary = times_ten(2, 6)
+print(my_dictionary)
+
+{2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 ```
-- Run the script from command line using the command: python ./lab6d.py.
-- Take the screenshot of code and the output.
+- Run the script from command line to verify the output.
 
 ## lab6e.py
 ### Traversing a Dictionary
