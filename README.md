@@ -45,7 +45,7 @@ mixed_list=[1, "two", 4.5, True]
    - Hint: You can use + to concatenate lists. For example: [1, 2] + [3, 4] results in [1, 2, 3, 4].
 - Print the variable `mylist` and check that it contains all six numbers in order.
 
-***
+---
 ### lab4b.py- Using list methods to add and remove elements from a list 
 **Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
@@ -76,6 +76,7 @@ mixed_list=[1, "two", 4.5, True]
 - Update the element at index 1 to "Maggy".  *Hint:* Remember that list indices start at 0.  
 - Use a `for` loop to iterate over the `students` list and print each name on a separate line.  
 
+---
 ## INVESTIGATION 2: WORKING WITH SETS
 
 Sets are used to store multiple items in a single variable. Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
