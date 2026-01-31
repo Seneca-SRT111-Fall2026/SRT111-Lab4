@@ -20,7 +20,7 @@ For each task:
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
    - Example: **Lab4a**, **Lab4b**, **Lab4c**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
-6. **Submit the PDF file** as your final lab submission on Blackbaord.
+6. **Submit the PDF file** as your final lab submission on Blackboard.
 
 ## INVESTIGATION 1: USING LISTS
 
@@ -28,7 +28,7 @@ A list in Python is an ordered collection of items that can be of different type
 In this Part you will be creating lists and performing basic operations on lists using list methods and built-in functions.
 Lists are used to store data elements. Usually lists contain similar kind of data, but python does not restrict you from adding values of different data types in a list.
 
-### Task1 - Creating lists and list concatenation
+### Task 1 - Creating lists and list concatenation
 **Objective:** To practice creating Python lists, storing values in them, concatenating multiple lists using the + operator.
 
 **Instructions:**
@@ -173,7 +173,7 @@ print(difference_set_method)  # Output: {1, 2}
 **Instructions:**
 
 - Create a file named `task5.py` and add your name and date in the comment section.
-- Copy the code from `task4.py` and paste it in the file `lab5.py`.
+- Copy the code from `task4.py` and paste it in the file `task5.py`.
 - Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.   
    - *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
 - Remove extra code from `main()` such as the calls to create `s7` and `s11`.
@@ -223,7 +223,7 @@ Here:
 **Instructions:**
 
 - Create a file named `task6.py` and add your name and date in the comment section.
-- Ceate a function named `times_ten(start_index, end_index)` that creates and returns a new dictionary.
+- Create a function named `times_ten(start_index, end_index)` that creates and returns a new dictionary.
 - The keys of the dictionary should be the numbers between `start_index` and `end_index` (inclusive).
 - Each value should be the key multiplied by ten.
 - The function prints the exact output as:
@@ -235,7 +235,7 @@ print(my_dictionary)
 ```
 - Run the script from command line to verify the output.
 ---
-### Taks 7 - Traversing a Dictionary
+### Task 7 - Traversing a Dictionary
 **Objective:** Practice traversing dictionaries using keys, values, and key-value pairs, and formatting the output with the .items() method.
 
 The familiar `for item in collection` loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
@@ -310,7 +310,7 @@ Pakistan : Karakoram
 ```
 - Run the script from command line to verify the output.
 ---
-### Task 8 - Using Dictionary for Problem solving
+### Task 8 - Using Dictionary for Problem Solving
 **Objective:** Learn how to use dictionaries to count and summarize data from strings by building a simple text-based histogram.
 **Instructions:**
 
