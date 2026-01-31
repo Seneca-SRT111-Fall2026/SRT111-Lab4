@@ -28,7 +28,7 @@ A list in Python is an ordered collection of items that can be of different type
 In this Part you will be creating lists and performing basic operations on lists using list methods and built-in functions.
 Lists are used to store data elements. Usually lists contain similar kind of data, but python does not restrict you from adding values of different data types in a list.
 
-### lab4a.py - Creating lists and list concatenation
+### Task1 - Creating lists and list concatenation
 **Objective:** To practice creating Python lists, storing values in them, concatenating multiple lists using the + operator.
 
 **Instructions:**
@@ -38,27 +38,29 @@ Lists are constructed with brackets [] and commas separating every element in th
 numbers=[1,2,3,4]
 mixed_list=[1, "two", 4.5, True]
 ```
-- Open the file Lab4a.py and fill in the required fields in the comment section.
+- Create a file named `task1.py` and add your name and date in the comment section.
 - Create a variable called `mylist1` that stores the first three odd numbers: 1, 3, 5.
 - Create a second list called `mylist2` that stores the first three even numbers: 0, 2, 4.
 - Create a third list called `mylist` that combines all elements from mylist1 and mylist2.
    - Hint: You can use + to concatenate lists. For example: [1, 2] + [3, 4] results in [1, 2, 3, 4].
 - Print the variable `mylist` and check that it contains all six numbers in order.
+- Run the script and verify the output.
 
 ---
-### lab4b.py- Using list methods to add and remove elements from a list 
+### Task 2 - Using list methods to add and remove elements from a list 
 **Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
 **Instructions:**
 
-- Open the file Lab4b.py and fill in the required fields in the comment section.
+- Create a file named `task2.py` and add your name and date in the comment section.
 - Create a variable `mylist` that contains the first 6 natural numbers: [1, 2, 3, 4, 5, 6].  
 - Use the `append()` method to add the number 7 to the end of the list.  
 - Use the `insert()` method to insert the number 0 at index 0.  
 - Use the `pop()` method to remove the element at index 2.  
 - Print the variable `mylist`.  
 - Add another statement to find the index of the element `6` and print:  
-  - The element 6 is present at the index ---`  *(Hint: use the `index()` method).* 
+  - The element 6 is present at the index ---`  *(Hint: use the `index()` method).*
+- Run the script and verify the output.
 
 **Expected Output:**
    ```yaml
@@ -67,14 +69,15 @@ mixed_list=[1, "two", 4.5, True]
    ```
 
 ---
-### lab4c.py- Modifying a list and using the list in a loop
+### Task 3 - Modifying a list and using the list in a loop
 **Objective:** To practice using common list methods (append(), insert(), pop(), and index()) for modifying and accessing list elements.
 
 **Instructions:**
-- Open the file Lab4c.py and fill in the required fields in the comment section.
+- Create a file named `task3.py` and add your name and date in the comment section.
 - Create a list variable called `students` and add the following names: Ama, Eden, Maija, Daniel, Ibrahim.  
 - Update the element at index 1 to "Maggy".  *Hint:* Remember that list indices start at 0.  
-- Use a `for` loop to iterate over the `students` list and print each name on a separate line.  
+- Use a `for` loop to iterate over the `students` list and print each name on a separate line.
+- Run the script to verify the output.
 
 ## INVESTIGATION 2: WORKING WITH SETS
 
@@ -98,11 +101,12 @@ print(myset)
 Output :
 {'kiwi', 'apples', 'oranges'}
 ```
-### lab4d.py - Creating Sets
+### Task 4 - Creating Sets
 **Objective:** To practice creating sets in Python, filtering elements based on divisibility by a given number.
 
 **Instructions:**
 
+- Create a file named `task4.py` and add your name and date in the comment section.
 - In your `lab4c.py` file, complete the given function to create the following sets:
    1. `s3` — contains numbers between 0 and 50 that are divisible by 3.  
    2. `s5` — contains numbers between 0 and 50 that are divisible by 5.  
