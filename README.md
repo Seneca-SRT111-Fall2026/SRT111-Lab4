@@ -106,8 +106,7 @@ Output :
 
 **Instructions:**
 
-- Create a file named `task4.py` and add your name and date in the comment section.
-- In your `lab4c.py` file, complete the given function to create the following sets:
+- In the `task4.py` file, complete the given function to create the following sets:
    1. `s3` — contains numbers between 0 and 50 that are divisible by 3.  
    2. `s5` — contains numbers between 0 and 50 that are divisible by 5.  
    3. `s7` — contains numbers between 0 and 50 that are divisible by 7.  
@@ -168,12 +167,13 @@ print(difference_set)  # Output: {1, 2}
 difference_set_method = set1.difference(set2)
 print(difference_set_method)  # Output: {1, 2}
 ```
-### lab4e.py - Set Operations
+### Task 5 - Set Operations
 **Objective:** To practice creating a new set from existing sets using the symmetric difference, and to reinforce passing sets as function arguments.
 
 **Instructions:**
 
-- Copy the code from `lab4d.py` and paste it in the file `lab4e.py`.
+- Create a file named `task5.py` and add your name and date in the comment section.
+- Copy the code from `task4.py` and paste it in the file `lab5.py`.
 - Create a new function called `s3_or_s5(s3, s5)` that returns a set containing all elements that are in `s3` or `s5` but not in both.   
    - *Hint:* Use the symmetric difference operator `^` or the `symmetric_difference()` method.
 - Remove extra code from `main()` such as the calls to create `s7` and `s11`.
@@ -187,24 +187,6 @@ s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
 s3_or_s5: {3, 5, 6, 9, 12, 18, 20, 21, 24, 27, 33, 35, 36, 39, 40, 42, 48, 50}
    ```
 ---
-### lab4f.py - Set Operations
-**Objective:** To practice combining multiple sets using intersection and difference, passing multiple sets as function arguments, and creating a new set based on specific conditions.
-
-**Instructions:**
-
-- Copy the code from lab4d.py and paste it in your lab4f.py file.
-- Create a new function called `s3_and_s5_not_s7(s3, s5, s7)` that returns a set containing all elements that are in both `s3` and `s5` but not in `s7`.
-   - *Hint:* Use set intersection and difference methods, e.g., `s3 & s5 - s7` or `s3.intersection(s5).difference(s7)`.  
-- Remove extra code from `main()` and call the function at the appropriate location.
-- Run the script to verify that the output shows `s3`, `s5`, `s7`, and the final set.
--- **Expected Output:**
-```yaml
-s3: {0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48}
-s5: {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50}
-s7: {0, 7, 14, 21, 28, 35, 42, 49}
-s3_and_s5_not_s7: {3, 6, 9, 12, 15, 18, 24, 27, 30, 33, 36, 39, 45, 48}
-```
-
 ## INVESTIGATION 3: DICTIONARIES
 
 In Python, a dictionary is a collection of key-value pairs. Dictionaries are unordered collections (like sets), but unlike sets, each element is associated with a key. You can retrieve any value efficiently if you know its key.
@@ -235,7 +217,7 @@ Here:
 - Printing the dictionary shows all its contents.
 - Finally, accessing this_dictionary["Argentina"] retrieves the value "Andes".
 
-### lab4g.py - Working With Dictionaries
+### Task 5 - Working With Dictionaries
 **Objective:** Practice creating and returning dictionaries by generating key-value pairs from a range of numbers.
 
 **Instructions:**
