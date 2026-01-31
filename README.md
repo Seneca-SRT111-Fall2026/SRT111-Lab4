@@ -1,4 +1,4 @@
-# Lab4
+# Lab 4
 In this lab, you will create eight simple Python scripts. All scripts must be written in GitHub Codespaces. 
 In this lab, you will explore three important Python data structures: **lists**, **sets**, and **dictionaries**. These structures are widely used to organize, store, and manage data efficiently. You will begin by working with lists to understand ordered collections and practice modifying their contents. Next, you will learn how sets store unique, unordered elements and how set operations can be applied in problem-solving. Finally, you will work with dictionaries to see how key–value pairs allow fast and efficient data access. By completing this lab, you will gain practical experience in creating, manipulating, and applying these fundamental data structures in Python programs.
 # Lab Objectives
