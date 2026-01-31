@@ -217,12 +217,13 @@ Here:
 - Printing the dictionary shows all its contents.
 - Finally, accessing this_dictionary["Argentina"] retrieves the value "Andes".
 
-### Task 5 - Working With Dictionaries
+### Task 6 - Working With Dictionaries
 **Objective:** Practice creating and returning dictionaries by generating key-value pairs from a range of numbers.
 
 **Instructions:**
 
-- In your lab4g.py file, create a function named `times_ten(start_index: int, end_index: int)` that creates and returns a new dictionary.
+- Create a file named `task6.py` and add your name and date in the comment section.
+- Ceate a function named `times_ten(start_index, end_index)` that creates and returns a new dictionary.
 - The keys of the dictionary should be the numbers between `start_index` and `end_index` (inclusive).
 - Each value should be the key multiplied by ten.
 - The function prints the exact output as:
@@ -234,7 +235,7 @@ print(my_dictionary)
 ```
 - Run the script from command line to verify the output.
 ---
-### lab4h.py - Traversing a Dictionary
+### Taks 7 - Traversing a Dictionary
 **Objective:** Practice traversing dictionaries using keys, values, and key-value pairs, and formatting the output with the .items() method.
 
 The familiar `for item in collection` loop can also be used with dictionaries. By default, looping through a dictionary goes through its keys one by one. Python provides different ways to traverse dictionaries, depending on whether you want to work with keys, values, or key-value pairs.
@@ -296,7 +297,7 @@ Key: major, Value: Computer Science
 ```
 
 **Instructions:**
-- A dictionary is provided to you in lab4h.py.
+- A dictionary is provided to you in task7.py.
 - Use a `for ... in` loop with the `.items()` method to traverse this dictionary.
 - Print the dictionary’s contents in the exact format shown below:
 
