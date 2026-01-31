@@ -1,13 +1,5 @@
-# Add comments before you do anything else.
-
-#!/usr/bin/env python3
 # Author:
 # Date:
-# Purpose: Create Sets.
-# Usage: ./lab4d.py
-
-# TO DO 1: Complete the functions below.
-
 def buildtheSet(divisor):
     # Complete this function
 def main():
@@ -28,5 +20,3 @@ def main():
     print("s11: ", s11)
 
 main()
-
-# TO DO 2: Run the script. Take screenshot of only buildtheSet() function. No need to capture main() in the screenshot. 
