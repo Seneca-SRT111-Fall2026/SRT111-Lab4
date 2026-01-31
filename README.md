@@ -1,5 +1,5 @@
 # Lab4
-In this lab, you will create ten simple Python scripts. All scripts must be written in GitHub Codespaces. 
+In this lab, you will create eight simple Python scripts. All scripts must be written in GitHub Codespaces. 
 In this lab, you will explore three important Python data structures: **lists**, **sets**, and **dictionaries**. These structures are widely used to organize, store, and manage data efficiently. You will begin by working with lists to understand ordered collections and practice modifying their contents. Next, you will learn how sets store unique, unordered elements and how set operations can be applied in problem-solving. Finally, you will work with dictionaries to see how key–value pairs allow fast and efficient data access. By completing this lab, you will gain practical experience in creating, manipulating, and applying these fundamental data structures in Python programs.
 # Lab Objectives
 - Create and manipulate Python lists, including adding, removing, and modifying elements.
@@ -310,11 +310,12 @@ Pakistan : Karakoram
 ```
 - Run the script from command line to verify the output.
 ---
-### lab4i.py - Using Dictionary for Problem solving
+### Task 8 - Using Dictionary for Problem solving
 **Objective:** Learn how to use dictionaries to count and summarize data from strings by building a simple text-based histogram.
 **Instructions:**
 
-- In your lab4i.py file, create a function named histogram that takes a string as its argument.
+- Create a file named `task8.py` and add your name and date in the comment section.
+- Create a function named histogram that takes a string as its argument.
 - The function should count how many times each letter occurs in the string, using a dictionary.
 - Then, print a histogram where each letter is followed by stars (*) representing its frequency.
 - For example, the function call `histogram("hello amma")` should print:
@@ -329,52 +330,20 @@ m **
 - Use a dictionary to store the letter counts.
 - Call your histogram() function from a main() function and pass it any string of your choice.
 - Run the script from the command line to verify the output.
+
 ---
-## lab4j.py - Using Dictionary for Structured Data
-
-Dictionaries are very useful for structuring related data. For example, we can represent a student’s record with a dictionary:
-```Python
-student = {"name": "Eden", "id": "eden2402", "semester": 3, "year": 2}
-```
-We can then create multiple such dictionaries, each representing one student. A list can be used to group these records together, for example:
-
-```Python
-student1 = {"name": "Eden", "id": "eden2402", "semester": 3, "year": 2}
-student2 = {"name": "Mustafa", "id": "mstfa12", "semester": 4, "year": 2}
-student3 = {"name": "Haiden", "id": "haiden1", "semester": 3, "year": 2}
-
-PRG101 = [student1, student2, student3]
-```
-This way, the list represents the course, and each dictionary in the list represents a student.
-
-**Instructions:**
-
-- In your lab4i.py file, create a function named add_movie() that adds a new movie to a movie database.
-- The movie database is a list, and each movie is represented by a dictionary.
-- Each dictionary should have the following keys:
-   - "name"
-   - "director"
-   - "year"
-   - "runtime"
-- The values for these keys should be passed as arguments to the function.
-- Call the function four times with different movies.
-- In the main() function, print the database so that each movie dictionary appears on a single line.
-- Run the script from the command line to verify the output.
-- Note that this is a complex task, you are creating a list of dictionaries. It is a really useful concept and if you are able to write this script, you should be proud of you!
 
 ## Lab 4 Sign-Off
 - Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
 - The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
-    - lab4a.py
-    - lab4b.py
-    - lab4c.py
-    - lab4d.py
-    - lab4e.py
-    - lab4f.py
-    - lab4g.py
-    - lab4h.py
-    - lab4i.py
-    - lab4j.py
+    - task1.py
+    - task2.py
+    - task3.py
+    - task4.py
+    - task5.py
+    - task6.py
+    - task7.py
+    - task8.py
       
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
