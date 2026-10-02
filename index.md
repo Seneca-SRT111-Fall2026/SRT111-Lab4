@@ -218,7 +218,7 @@ Complete the following tasks independently after the scheduled lab using VS Code
 | Task 4 - Creating Sets with a Function | 1.0 |
 | Task 5 - Set Operations | 1.0 |
 | Task 6 - Creating Dictionaries with a Function | 1.0 |
-| Task 7 - Traversing a Dictionary | 1.0 |
+| Task 7 - Traversing a Dictionary | 2.0 |
 | Task 8 - Using a Dictionary for Problem Solving | 2.0 |
 | Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | upto 100% deduction may apply |
 | **Total** | **7** |
