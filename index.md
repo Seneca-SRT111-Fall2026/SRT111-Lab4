@@ -220,7 +220,7 @@ Complete the following tasks independently after the scheduled lab using VS Code
 | Task 6 - Creating Dictionaries with a Function | 1.0 |
 | Task 7 - Traversing a Dictionary | 1.0 |
 | Task 8 - Using a Dictionary for Problem Solving | 2.0 |
-| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | 1.0 |
+| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | upto 100% deduction may apply |
 | **Total** | **7** |
 
 > Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
