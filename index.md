@@ -184,13 +184,11 @@ def main():
     print("s3: ", s3)
     print("----------------------------------------")
 
-    #create s5
-    s7 = buildtheSet(7)
-    print("s7: ", s7)
-    print("----------------------------------------")
+    # create s5 by calling buildtheSet(), then print it and a separator line, following the s3 example above
 
-    s11 = buildtheSet(11)
-    print("s11: ", s11)
+    # create s7 by calling buildtheSet(), then print it and a separator line, following the s3 example above
+
+    # create s11 by calling buildtheSet(), then print it, following the s3 example above
 
 main()
 ```
@@ -203,10 +201,9 @@ main()
   - Uses an `if` statement to check whether each number is divisible by `divisor`.
   - Adds each divisible number to the set using the `add()` method.
   - Returns the set.
-- In `main()`, replace the `#create s5` comment with code that:
-  - Creates `s5` (numbers from 0 to 50 divisible by 5) by calling `buildtheSet()`.
-  - Prints `s5` and a separator line, in the same format as the other sets.
-- Run your script to test it.
+- In `main()`, complete each comment by following the `s3` example:
+  - Create `s5`, `s7`, and `s11` (numbers from 0 to 50 divisible by 5, 7, and 11) by calling `buildtheSet()`.
+  - Print each set and a separator line, in the same format as `s3`.- Run your script to test it.
 
 **Expected Output:**
 
