@@ -230,7 +230,7 @@ Complete the following tasks independently after the scheduled lab using VS Code
 - Open your local Git repository `SRT111F2026` on your computer.
 - Create a new folder named `Lab04` inside the repository.
 - Open the `Lab04` folder in VS Code.
-- Create all Python files for this lab (`task5.py`, `task6.py`, `task7.py`, `task8.py`) inside the `Lab04` folder.
+- Create all Python files for this lab (`task4.py`, `task5.py`, `task6.py`, `task7.py`, `task8.py`) inside the `Lab04` folder.
 
 **For each task:**
 
