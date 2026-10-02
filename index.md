@@ -53,10 +53,9 @@ Complete all assigned in-class tasks during your scheduled lab.
 
 | Task | Marks |
 |---|---|
-| Task 1 - Creating Lists and List Concatenation | 0.5 |
-| Task 2 - Using List Methods to Add and Remove Elements | 0.5 |
-| Task 3 - Modifying a List, Looping, and Removing Duplicates | 0.75 |
-| Task 4 - Creating Sets with a Function | 1.25 |
+| Task 1 - Creating Lists and List Concatenation | 1.0 |
+| Task 2 - Using List Methods to Add and Remove Elements | 1.0 |
+| Task 3 - Modifying a List, Looping, and Removing Duplicates | 1.0 |
 | **Total** | **3** |
 
 > Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
@@ -292,11 +291,12 @@ Complete the following tasks independently after the scheduled lab using VS Code
 
 | Task | Marks |
 |---|---|
-| Task 5 - Set Operations | 1.25 |
-| Task 6 - Creating Dictionaries with a Function | 1.25 |
-| Task 7 - Traversing a Dictionary | 1.25 |
-| Task 8 - Using a Dictionary for Problem Solving | 2.5 |
-| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | 0.75 |
+| Task 4 - Creating Sets with a Function | 1.0 |
+| Task 5 - Set Operations | 1.0 |
+| Task 6 - Creating Dictionaries with a Function | 1.0 |
+| Task 7 - Traversing a Dictionary | 1.0 |
+| Task 8 - Using a Dictionary for Problem Solving | 2.0 |
+| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | 1.0 |
 | **Total** | **7** |
 
 > Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
