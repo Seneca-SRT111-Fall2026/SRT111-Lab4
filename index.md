@@ -506,6 +506,7 @@ m **
 - Commit and push your `Lab04` folder to your GitHub repo `SRT111F2026`.
 - Submit a PDF named using your Seneca username (e.g., `yoursenecausername.pdf`) on Blackboard.
 - Your PDF must include:
+  - Task 4 screenshot(s)
   - Task 5 screenshot(s)
   - Task 6 screenshot(s)
   - Task 7 screenshot(s)
