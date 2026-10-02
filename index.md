@@ -205,6 +205,42 @@ Ibrahim
 
 > **Note:** The list keeps every name in its original order, including duplicates. The set keeps only unique names and does not preserve order, so your set may print in a different order.
 
+---
+
+# Part B - Take-Home Lab [70% of Lab Marks]
+
+Complete the following tasks independently after the scheduled lab using VS Code.
+
+**Part B Marking (7 marks):**
+
+| Task | Marks |
+|---|---|
+| Task 4 - Creating Sets with a Function | 1.0 |
+| Task 5 - Set Operations | 1.0 |
+| Task 6 - Creating Dictionaries with a Function | 1.0 |
+| Task 7 - Traversing a Dictionary | 1.0 |
+| Task 8 - Using a Dictionary for Problem Solving | 2.0 |
+| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | 1.0 |
+| **Total** | **7** |
+
+> Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
+
+**Before You Begin:**
+
+- Open your local Git repository `SRT111F2026` on your computer.
+- Create a new folder named `Lab04` inside the repository.
+- Open the `Lab04` folder in VS Code.
+- Create all Python files for this lab (`task5.py`, `task6.py`, `task7.py`, `task8.py`) inside the `Lab04` folder.
+
+**For each task:**
+
+- Run the script using the VS Code terminal.
+- Take a screenshot that clearly shows:
+  - Your code in the editor.
+  - The terminal output, including your username visible in the terminal.
+- Insert the screenshots into a Word document under a heading that matches the task name (e.g., **Task 5**, **Task 6**). You will export this Word document to PDF and submit it on Blackboard.
+
+
 <details>
 <summary><b>Quick Reference: Sets</b></summary>
 
@@ -281,40 +317,6 @@ s11:  {0, 11, 22, 33, 44}
 
 > **Note:** Sets are unordered, so your printed output may not appear in numerical order. The set contents must match.
 
----
-
-# Part B - Take-Home Lab [70% of Lab Marks]
-
-Complete the following tasks independently after the scheduled lab using VS Code.
-
-**Part B Marking (7 marks):**
-
-| Task | Marks |
-|---|---|
-| Task 4 - Creating Sets with a Function | 1.0 |
-| Task 5 - Set Operations | 1.0 |
-| Task 6 - Creating Dictionaries with a Function | 1.0 |
-| Task 7 - Traversing a Dictionary | 1.0 |
-| Task 8 - Using a Dictionary for Problem Solving | 2.0 |
-| Submission requirements (comment headers, Git push, PDF named correctly, readable screenshots) | 1.0 |
-| **Total** | **7** |
-
-> Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
-
-**Before You Begin:**
-
-- Open your local Git repository `SRT111F2026` on your computer.
-- Create a new folder named `Lab04` inside the repository.
-- Open the `Lab04` folder in VS Code.
-- Create all Python files for this lab (`task5.py`, `task6.py`, `task7.py`, `task8.py`) inside the `Lab04` folder.
-
-**For each task:**
-
-- Run the script using the VS Code terminal.
-- Take a screenshot that clearly shows:
-  - Your code in the editor.
-  - The terminal output, including your username visible in the terminal.
-- Insert the screenshots into a Word document under a heading that matches the task name (e.g., **Task 5**, **Task 6**). You will export this Word document to PDF and submit it on Blackboard.
 
 <details>
 <summary><b>Quick Reference: Set Operations</b></summary>
