@@ -71,6 +71,7 @@ Complete all assigned in-class tasks during your scheduled lab.
   
 <summary><b>Quick Reference: Lists</b></summary>
 
+
 A list is an ordered collection of items, created with square brackets `[]` and commas between elements. Lists are mutable, so their contents can be changed after creation.
 
 ```python
