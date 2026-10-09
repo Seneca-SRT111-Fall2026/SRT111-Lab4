@@ -267,6 +267,7 @@ print(numbers)    # Output: {10, 20}
 
 </details>
 
+
 ### Task 4 - Creating Sets with a Function
 
 **Objective:** Practice creating sets in Python by completing a function that uses a loop and conditional logic to filter numbers by divisibility.
@@ -322,7 +323,8 @@ s11:  {0, 11, 22, 33, 44}
 > **Note:** Sets are unordered, so your printed output may not appear in numerical order. The set contents must match.
 
 
-<details>
+<details markdown="1">
+  
 <summary><b>Quick Reference: Set Operations</b></summary>
 
 Python sets support mathematical set operations directly, using either an operator or a method.
@@ -349,6 +351,7 @@ print(set1.symmetric_difference(set2))    # Output: {1, 2, 4, 5}
 ```
 
 </details>
+
 
 ### Task 5 - Set Operations
 
@@ -377,8 +380,10 @@ s3_or_s5:  {3, 5, 6, 9, 10, 12, 18, 20, 21, 24, 25, 27, 33, 35, 36, 39, 40, 42, 
 
 > **Note:** Sets are unordered, so your printed output may not appear in numerical order. Spacing after the labels and separator lines may also differ from the sample. The set contents must match.
 
-<details>
+<details markdown="1">
+  
 <summary><b>Quick Reference: Dictionaries</b></summary>
+
 
 A dictionary is a collection of **key–value pairs**. Instead of numeric indexes, you use a key to access its value. Since Python 3.7, dictionaries keep items in the order they were added.
 
