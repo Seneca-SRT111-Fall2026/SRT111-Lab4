@@ -68,6 +68,7 @@ Complete all assigned in-class tasks during your scheduled lab.
 - No PDF submission is required for Part A unless otherwise instructed.
 
 <details>
+  
 <summary><b>Quick Reference: Lists</b></summary>
 
 A list is an ordered collection of items, created with square brackets `[]` and commas between elements. Lists are mutable, so their contents can be changed after creation.
