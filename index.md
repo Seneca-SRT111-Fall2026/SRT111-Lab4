@@ -243,8 +243,10 @@ Complete the following tasks independently after the scheduled lab using VS Code
 - Insert the screenshots into a Word document under a heading that matches the task name (e.g., **Task 5**, **Task 6**). You will export this Word document to PDF and submit it on Blackboard.
 
 
-<details>
+<details markdown="1">
+  
 <summary><b>Quick Reference: Sets</b></summary>
+
 
 A set stores unique, unordered items. Sets are created with curly brackets, and duplicate values are automatically ignored.
 
