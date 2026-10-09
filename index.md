@@ -67,7 +67,7 @@ Complete all assigned in-class tasks during your scheduled lab.
 - The professor may ask you to explain portions of your code.
 - No PDF submission is required for Part A unless otherwise instructed.
 
-<details>
+<details markdown="1">
   
 <summary><b>Quick Reference: Lists</b></summary>
 
